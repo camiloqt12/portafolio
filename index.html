@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Camilo Quintero - Portafolio </title>
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/whatsapp.css">
+        <link rel="icon" type="image/png" href="./items/images/profile-picture.jpeg">
+
+    </head>
+
+    <body>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://api.whatsapp.com/send?phone=573114990963&text=Hola Camilo!" class="whatsapp__float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i> </a>
+
+        <header class="header">
+
+            <section class="container-allsection">
+
+                <h2 class="header__h2"> <a href="https://www.unipiloto.edu.co/" target="_blank"> Universidad Piloto de Colombia </a> </h2>
+
+                <div class="header__nav">
+
+                    <ul class="header__nav-ul">
+                        <li class="header__nav-ul_li" >
+                            <a href="#perfil"> Perfil </a>
+                        </li>
+                        <li class="header__nav-ul_li">
+                            <a href="#Educación"> Educación </a>
+                        </li>
+                        <li class="header__nav-ul_li">
+                            <a href="#Habilidades"> Habilidades </a>
+                        </li>
+                        <li class="header__nav-ul_li">
+                            <a href="#Contacto"> Contacto </a>
+                        </li>
+                    </ul>
+
+                </div>
+                
+            </section>
+
+        </header>
+
+        <Section class="hero">
+            
+            <img class="hero__img" src="">
+            <div class="hero_opacity">
+                
+                <a href="https://www.linkedin.com/in/camilo-andres-qr12/" target="_blank"><h1> Camilo Andres Quintero </h1></a>
+                <hr>
+                <p> Estudiante de Ingeniería Civil </p>
+
+            </div> 
+
+        </Section>
+
+        <section class="main" id="perfil">
+
+            <h2> Perfil </h2>
+            <figure class="main__img">
+                <img src="./items/images/profile-picture.jpeg" alt="Imagen de perfil">
+            </figure>
+            <p>Mi nombre es Camilo Andres Quintero, 
+            estudiante de Ingenieria Civil. 
+            Poseo Habilidades para solucionar
+            problemas de forma inmediata,
+            mantener buenas relaciones
+            interpersonales con grupos de
+            trabajo y personal externo, lo
+            cual me permite tener los
+            mejores resultados individual y
+            en equipo, adaptable a cambios,
+            responsable, honesto,
+            respetuoso, con disposición de
+            transmitir mis conocimientos y
+            abierto aplicarlo en mi trabajo.</p>
+
+        </section>
+
+        <section class="educacion" id="Educación">
+
+            <section class="container-allsection">
+     
+                <h2 class="educacion__title"> Educación</h2>
+                
+                <section class="educacion__universitaria">
+                    <figure>
+                        <img src="./items/images/universidad-picture.jpg" alt="">
+                    </figure>
+                    
+                    <div class="educacion__universitaria-info">
+                        <h3> Universidad Piloto de Colombia </h3>
+                        <h5> Facultad de Ingeniería</h5>
+                        <ul>
+                            <li>
+                                Ingeniería Civil
+                            </li>
+                            <li>
+                                Noveno semestre en curso
+                            </li>
+                            <li>
+                                Tesis en diagnóstico y formulación de la solución para el acueducto de la vereda el Libano
+                            </li>
+                            <li>
+                                Inicio 2016 a la fecha
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+    
+            </section>
+
+        </section>
+
+        <section class="habilidades" id="Habilidades">
+            <h2> Habilidades Profesionales </h2>
+            <figure class="habilidades__figure">
+                <img class="habilidades__figure-autocad" src="./items/images/autocad.png" alt="Autocad">
+                <img class="habilidades__figure-revit" src="./items/images/revit.png" alt="Revit">
+                <img class="habilidades__figure-sap" src="./items/images/sap.png" alt="Sap">
+            </figure>
+        </section>
+
+        <section class="contacto" id="Contacto">
+            
+            <h2 class="contacto__title"> Contacto </h2>
+
+            <section class="contacto__container">
+                <div>
+                    <img src="./items/images/ubicacion.png" alt="Icon Ubicación">
+                    <p>Bogotá, Colombia</p>
+                </div>
+                <div>
+                    <img src="./items/images/whatsapp.png" alt="Icon Whatsapp">
+                    <p>311-499-0963</p>
+                </div>
+                <div>
+                    <img src="./items/images/gmail.png" alt="Icon Correo">
+                    <p>Camiloqt12@gmail.com</p>
+                </div>
+            </section>
+
+            <form class="contacto__form" method="post" action="enviar.php" role="form" >
+                <input class="contacto__form-input" type="text" id="name" placeholder="Déjame tu nombre completo"> <!-- value="@gmail.com" -->
+                <input class="contacto__form-input" type="text" id="email" placeholder="Tu email"> <!-- value="@gmail.com" -->
+                <input class="contacto__form-input" type="text" id="tel" placeholder="Tu teléfono"> <!-- value="@gmail.com" -->
+                <input class="contacto__form-input_message" id="message" name="mensaje" type="text" rows="8" placeholder="Pregúntame">
+                <button class="contacto__form-button"> Enviar </button>
+            </form>
+            
+        </section>
+
+        <footer class="footer">
+
+            <div>
+                <h3>Universidad Piloto de Colombia</h3>
+                <h3>Camilo Andres Quintero</h3>
+                <p> Desarrollado con HTML y CSS </p>
+                <p> © 2020 Todos los derechos reservados </p>
+            </div>
+
+        </footer>
+        
+    </body>
+
+
+</html>
